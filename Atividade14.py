@@ -1,0 +1,7 @@
+#A LOCADORA DE CARROS PRECISA DA SUA AJUDA PARA COBRAR SEUS SERVICOS.ESCREVA UM PROGRAMA QUE PERGUNTE A QUANTIDADE DE KM PERCORRIDOS POR UM CARRO ALUGADO E A QUANTODADE D EDIAS PELO QUAL ELE FOI ALUGADO. CALCULE O PRECO TOTAL A PAGAR, SABENFO QUE O CARRO CUSTA R$90 POR DIA 0.20 POR M RODADO.
+ 
+dias=float(input('insira o total de dias alugado'))
+km=float(input('insira to total de km rodados'))
+cnt=dias * 90
+cnt2=km * 0.20
+print('o total do servico foi', cnt + cnt2)
